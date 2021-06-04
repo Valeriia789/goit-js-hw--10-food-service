@@ -6,6 +6,8 @@ const Theme = {
 const switchToggle = document.getElementById('theme-switch-toggle');
 const bodyClass = document.body.classList;
 
+// bodyClass.add(Theme.LIGHT);
+
 // создавать и читать данные в локальном хранилище, синтаксис:
 // localStorage.setItem('Theme', JSON.stringify(Theme));
 // console.log(JSON.parse(localStorage.getItem('Theme')));
